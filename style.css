@@ -1,19 +1,52 @@
 .header{
-background-color: black;
-height: 50px;
-display: flex;
-justify-content: space-around;
+    background-color: black;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
 }
 .headerlink{
-color:white;
-padding: 15px 40px ;
-
-display: flex;
-text-decoration: none;
-font-size: 16px; 
-transition: ease-in-out 0.5s;
+    color:white;
+    padding: 20px 40px ;
+    display: flex;
+    text-decoration: none;
+    font-size: 16px; 
+    transition: ease-in-out 0.5s;
 }
 .headerlink:hover{
     background-color: orange;
     color: black;
+}
+.intro{
+    display: flex;
+    margin: 20px;
+    height: 200px;
+    justify-content: center;
+}
+.intro p{
+    width: 670px;
+    padding-left: 20px;
+}
+.footer{
+    height: 80px;
+    background-color: gray;
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.footerlink{
+    padding: 3px;
+    border-radius: 10px;
+    margin-left: 15px;
+}
+.footerlink:hover{
+    background-color: darkgray;
+}
+.footerlink img{
+    height: 20px;
 }
