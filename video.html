@@ -28,6 +28,8 @@
         </iframe>
     </div>
 
+    <div id="twitch-embed"></div>
+
     <footer class="footer">
         <div class="footerlink">
             <a href="https://github.com/samchen023"><img src="/img/Octicons-mark-github.svg" alt=""></a>
@@ -38,6 +40,19 @@
             </p>
         </div>
     </footer>
+
+    <!-- Load the Twitch embed JavaScript file -->
+    <script src="https://embed.twitch.tv/embed/v1.js"></script>
+
+    <script type="text/javascript">
+        new Twitch.Embed("twitch-embed", {
+            width: 854,
+            height: 480,
+            channel: "SamChen023",
+            layout: "video",
+            autoplay: false,
+        });
+    </script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
