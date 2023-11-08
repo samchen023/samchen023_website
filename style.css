@@ -73,12 +73,20 @@ body{
     justify-content: center;
     align-items: center;
 }
-.projecttitle{
+.title{
     font-size: 25px;
     display: flex;
     justify-content: center;
     padding:20px ;
     color: white;
+}
+.toptitle{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    padding:20px ;
+    color: black;
+    font-weight: bold;
 }
 .project p{
     margin: 0px;
@@ -110,17 +118,11 @@ body{
     justify-content: center;
     margin: 0px 20px;   
 }
-.youtubetitle{
-    background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
-    font-size: 25px;
-    display: flex;
-    justify-content: center;
-    padding:20px ;
-}
+
 .youtubetitle p{
     margin-top: 10px;
-
 }
+
 .carousel-control-prev-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
    }
@@ -168,13 +170,6 @@ body{
 }
 .igpic>iframe{
     margin: 5px;
-}
-.phototitle{
-    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
-    font-size: 25px;
-    display: flex;
-    justify-content: center;
-    padding:20px ;
 }
 .statics-icons{
     display: flex;
