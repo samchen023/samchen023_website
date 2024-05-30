@@ -72,11 +72,19 @@ body{
 }
 .project{
     display: flex;
-    margin: 20px 50px;
-    height: 200px;
+    margin: 20px 30px;
+    height: fit-content;
     justify-content: center;
     align-items: center;
 }
+.project ul{
+    margin: 20px;
+}
+.project iframe{
+    width: 500px;
+    height: 450px;
+}
+
 .title{
     font-size: 25px;
     display: flex;
@@ -194,4 +202,8 @@ body{
 }
 .slideshow{
     margin: 15px;
+}
+.info{
+    display: grid;
+    justify-items: center;
 }
