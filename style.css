@@ -23,24 +23,38 @@
     max-width: 100%;
     height: auto;
   }
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
 .intro{
     display: flex;
     margin: 20px;
-    height: 200px;
+    height: 100%;
     justify-content: center;
+    align-items: center;
 }
 .intro p{
-    width: 670px;
+    width: 80%;
     padding-left: 20px;
 }
 .intro h2{
-    width: 670px;
+    width: 80%;
     padding-left: 20px;
 }
-.intropic img{
-    width: 200px;
-    border-radius: 15px;
+.intropic{
+    width: 20%;
 }
+.intropic img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}   
+
 .footer{
     height: 100px;
     background-color: gray;
@@ -202,6 +216,7 @@ body{
 }
 .slideshow{
     margin: 15px;
+    width: 80%;
 }
 .info{
     display: grid;
