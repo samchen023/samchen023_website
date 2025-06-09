@@ -10,15 +10,13 @@
     <link rel="stylesheet" href="reset.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="scripts/load_layout.js"></script>
+
 </head>
 
 <body>
-    <nav class="header">
-        <a href="index.html" class="headerlink">Home</a>
-        <a href="project.html" class="headerlink">Project</a>
-        <a href="video.html" class="headerlink">Video</a>
-        <a href="social.html" class="headerlink">Photo</a>
-    </nav>
+    <div id="header"></div>
 
     <p class="toptitle" style="background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);">All Platform</p>
 
@@ -32,16 +30,7 @@
 
     <div id="twitch-embed"></div>
 
-    <footer class="footer">
-        <div class="footerlink">
-            <a href="https://github.com/samchen023"><img src="/img/Octicons-mark-github.svg" alt=""></a>
-        </div>
-        <div class="copyright">
-            <p>
-                Copyright © 2023 SamChen. All rights reserved.
-            </p>
-        </div>
-    </footer>
+    <div id="footer"></div>
 
     <!-- Load the Twitch embed JavaScript file -->
     <script src="https://embed.twitch.tv/embed/v1.js"></script>

@@ -10,41 +10,30 @@
     <link rel="stylesheet" href="reset.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="scripts/load_layout.js"></script>
 </head>
 
 <body>
-    <nav class="header">
-        <a href="index.html" class="headerlink">Home</a>
-        <a href="project.html" class="headerlink">Project</a>
-        <a href="video.html" class="headerlink">Video</a>
-        <a href="social.html" class="headerlink">Photo</a>
-    </nav>
+    <div id="header"></div>
+
+    <div id="content">
+        <p class="toptitle" style=" background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);">
+            Photography portfolio</p>
 
 
-    <p class="toptitle" style=" background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);">
-        Photography portfolio</p>
+        <div class="igpic">
+            <iframe width="320" height="500" src="https://instagram.com/p/CbRBO6BBVnE/embed" frameborder="0"
+                scrolling="no"></iframe>
+            <iframe width="320" height="260" src="https://instagram.com/p/CV0VmsHBi0r/embed" frameborder="0"
+                scrolling="no"></iframe>
+            <iframe width="320" height="280" src="https://instagram.com/p/CV27hruhZ94/embed" frameborder="0"
+                scrolling="no"></iframe>
+        </div>
 
-
-    <div class="igpic">
-        <iframe width="320" height="420" src="https://instagram.com/p/CbRBO6BBVnE/embed" frameborder="0"
-            scrolling="no"></iframe>
-        <iframe width="320" height="260" src="https://instagram.com/p/CV0VmsHBi0r/embed" frameborder="0"
-            scrolling="no"></iframe>
-        <iframe width="320" height="260" src="https://instagram.com/p/CV27hruhZ94/embed" frameborder="0"
-            scrolling="no"></iframe>
     </div>
 
-    <footer class="footer">
-        <div class="footerlink">
-            <a href="https://github.com/samchen023"><img src="/img/Octicons-mark-github.svg" alt=""></a>
-        </div>
-        <div class="copyright">
-            <p>
-                Copyright © 2023 SamChen. All rights reserved.
-            </p>
-        </div>
-    </footer>
-
+    <div id="footer"></div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
